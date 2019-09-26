@@ -1,0 +1,122 @@
+@font-face{
+    font-family: avenirFont;
+    src: url('../assets/fonts/AvenirNextLTPro-Regular.otf')
+}
+.navbar{
+    font-family: 'Lato', sans-serif !important;
+}
+nav .home{
+    color: #00AEB5
+}
+nav a{
+    color:  #2C3E50
+}
+.mt5{
+    margin-top: 5rem;
+}
+.mt3{
+    margin-top: 3rem;
+}
+.mt25{
+    margin-top: 2.5rem;
+}
+.mt2{
+    margin-top: 2rem;
+}
+.mt1{
+    margin-top: 1rem;
+}
+.mb3{
+    margin-bottom: 3rem;
+}
+.mb2{
+    margin-bottom: 2rem;
+}
+.mb1{
+    margin-bottom: 1rem;
+}
+body{
+    font-family: 'avenirFont', sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6,p,ul,ol{
+    margin: 0;
+    padding: 0;
+}
+.img{
+    width: 100%;
+}
+nav ul li{
+    margin: 0 1rem;
+    line-height: 22px;
+}
+nav ul li:last-of-type{
+    border: 0.7px solid #FFFFFF;
+    border-radius: 5px;
+    background: #00AEB5;
+}
+nav ul li:last-of-type a{
+    color: white !important;
+    padding: 5px 22px !important;
+}
+nav a{
+    color:  #2C3E50
+}
+.layout{
+    padding: 2rem 2rem;
+}
+.signupfm{
+    max-width: 350px;
+    margin: auto
+}
+.signup h4{
+    font-size: 30px;
+    color: #00AEB5;
+    text-align: center
+}
+form label{
+    font-size: 18px;
+    line-height: 25px;
+    color: #2C3E50;
+}
+form input{
+    padding: 0.6rem 2rem !important;
+    border-radius: 5px !important; 
+    border: 0.5px solid #00AEB5 !important;
+    width: 100%;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+form input::placeholder{
+    color: rgba(44, 62, 80, 0.7) !important;
+    font-family: 'Lato';
+    font-weight: 100 !important
+}
+form button{
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    background: #00AEB5 !important;
+    font-size: 16px;
+    color:  #FFFFFF;
+    text-transform: uppercase;
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem
+}
+form p{
+    font-size: 16px;
+    text-align: center
+}
+form p a{
+    color:  #D90606;
+}
