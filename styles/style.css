@@ -263,6 +263,9 @@ nav a{
     width: 20px;
     height: 20px;
 }
+.social-media li a{
+    color: #2C3E50;
+}
 @media (min-width: 500px){
     .boxy{
         height: 400px;
