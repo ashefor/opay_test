@@ -13,6 +13,9 @@ h1,h2,h3,h4,h5,h6,p,ul,ol{
     margin: 0;
     padding: 0;
 }
+h6{
+    font-weight: 900;
+}
 .img{
     width: 100%;
 }
@@ -93,12 +96,13 @@ nav a{
 .op_h{
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 71px
+    grid-gap: 38px
 }
 
 .op h6{
     margin-top: 15px;
-    color:  #2C3E50
+    color:  #2C3E50;
+    font-size: 22px;
 }
 .op p{
     font-family: 'avenirFont', sans-serif;
@@ -457,6 +461,9 @@ nav a{
     }
     .meet,.grey{
         width: 100%
+    }
+    .op_h{
+        grid-gap: 80px
     }
     .m_j{
         position: relative;
