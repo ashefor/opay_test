@@ -235,7 +235,8 @@ nav a{
 }
 .l_m{
     margin-top: 1rem;
-    display: block
+    display: block;
+    color:  #00AEB5;
 }
 
 .social-footer{
