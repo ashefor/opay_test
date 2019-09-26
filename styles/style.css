@@ -46,14 +46,8 @@ nav a{
     background: #00AEB5;
     padding: 2rem 2rem;
 }
-
-.phone{
-    background-image: url("../assets/images/white2.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 100%;
-    height: 100%;
+.pw{
+    position: relative;
 }
 .phone img{
     width: 100%;
@@ -88,7 +82,7 @@ nav a{
     margin-bottom: 30px
 }
 .help h6{
-    margin-top: 80px;
+    margin-top: 50px;
     font-size: 24px;
     line-height: 33px;
     color:  #00AEB5;
@@ -412,6 +406,25 @@ nav a{
     }
 }
 @media only screen and (min-width: 992px){
+    .wrapper_info{
+        display: flex;
+        flex-direction: row
+    }
+    .pw{
+        width: 50%;
+    }
+    .gpf{
+        width: 50%
+    }
+
+    .phone{
+        background-image: url("../assets/images/white2.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        height: 100%;
+    }
     .features ul li{
         margin-top: 1rem !important;
         margin-bottom: 1rem !important;
@@ -431,28 +444,32 @@ nav a{
 }
 @media only screen and (min-width: 1200px){
     .pw{
+        width: 40%;
         height: 250px;
+    }
+    .gpf{
+        width: 60%
+    }
+    .gpf .pl{
+        position: absolute;
+        top: 100px;
+        left: 55px
     }
     .layout{
         min-height: 577px;
     }
+    .wrapper_info{
+        display: flex;
+        flex-direction: row
+    }
     .phone{
         position: absolute;
-        left: -30px;
-        top: 28px;
-        background-image: url("../assets/images/white2.png");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: contain;
-        width: 100%;
+        left: -40px;
+        top: 5px;
         height: 250%;
         transform: rotate(-14.08deg);
     }
-    .gpf .pl{
-        position: absolute;
-        top: 115px;
-        left: 40px;
-    }
+    
     .man{
         display: block
     }
